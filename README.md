@@ -14,5 +14,5 @@ This page is only for personal use only. Not for sale or commercial purpose.
 - [https://www.codepen.io](https://codepen.io/shu-vro/pen/rNjodZK)
 - And some of my creative designs with PHOTOSHOP
 
-## The Result Of Patience Is Sweet. 
+## Patience is our friend.
 [Click here To See The webpage.](https://shu-vro.github.io/Neumorphic-Website/index.html)
