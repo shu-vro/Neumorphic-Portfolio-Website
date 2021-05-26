@@ -1,0 +1,128 @@
+@media (max-width: 818px) {
+    .home nav ul {
+        position: fixed;
+        top: calc(-100% - 80px);
+        left: 0;
+        right: initial;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        background: #394e65;
+        border-radius: 0 0 50px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+        z-index: -1;
+        opacity: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .home nav ul::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        background: #394e65;
+        top: -80px;
+    }
+
+    .home nav ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .home nav ul li:last-child {
+        margin-bottom: 25px;
+    }
+
+    .home nav ul li a {
+        border: 0px solid #3d93d5;
+        background: linear-gradient(-45deg, #256db4, #42a5f3);
+        box-shadow: 0 0 0 3px #3d93d5, -3px -3px 10px rgb(255 255 255 / 44%),
+            3px 3px 10px #000000;
+    }
+
+    .home label {
+        display: inline-block;
+    }
+
+    #nav_check:checked ~ label::before {
+        content: "\f00d";
+    }
+
+    #nav_check:checked ~ ul {
+        top: 0;
+        opacity: 0.8;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content > * {
+        width: 80vw;
+    }
+
+    .main-content .about-text {
+        text-align: center;
+    }
+
+    .about .main-content .skills::before {
+        top: 0;
+        left: 0;
+        height: 10px;
+        width: 100%;
+        border-radius: 100px;
+    }
+
+    .skills .skill:first-child {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 705px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-container > * {
+        position: relative;
+        width: 100vw;
+    }
+
+    .styling-4 {
+        position: absolute;
+        top: 50%;
+        bottom: inherit;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .styling-4 img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 587px) {
+    .home .introduction {
+        flex-direction: column-reverse;
+    }
+    .introduction .my-image {
+        margin-top: 100px;
+        width: 80vw;
+        height: 80vw;
+    }
+    .introduction .hello {
+        margin: 60px;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 329px) {
+    .introduction .hello h1 .hand {
+        font-size: .8em;
+    }
+}

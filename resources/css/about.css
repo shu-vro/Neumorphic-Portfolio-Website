@@ -1,0 +1,200 @@
+.textography {
+    margin: 100px 0;
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.textography .header-text {
+    box-shadow: inset 3px 3px 10px black,
+        inset -3px -3px 10px rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-content > * {
+    width: 50vw;
+    position: relative;
+}
+
+.main-content .about-text {
+    margin: 80px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.main-content .about-text .lang-images {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-content .about-text .lang-images img {
+    height: 100px;
+}
+
+.styling-2 {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0px;
+    z-index: -1;
+}
+
+.styling-2 img {
+    width: 600px;
+}
+
+.about .main-content .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about .main-content .skills::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    border-radius: 100px;
+    background: crimson;
+    box-shadow: 7px -7px 14px #0d0e11, -7px 7px 14px #333843;
+}
+
+.skills .skill {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    margin: 0px 50px;
+    height: 28px;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+.skill .name {
+    position: absolute;
+    top: 0%;
+}
+
+.skill .value {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+.skill .percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 20px;
+    border-radius: 100px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.348),
+        inset 3px 3px 5px rgba(0, 0, 0, 0.359),
+        inset -3px -3px 3px rgba(255, 255, 255, 0.09),
+        inset -3px -3px 5px rgba(255, 255, 255, 0.09);
+}
+
+.skill .percent .progress {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translate(0%, -50%);
+    height: 10px;
+    width: 90%;
+    background: white;
+    border-radius: 100px;
+}
+
+.styling-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.styling-3 .box1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    height: 260px;
+    width: 260px;
+    border-radius: 63px;
+    background: linear-gradient(225deg, #1d2026, #22252d);
+    box-shadow: -26px 26px 52px #1b1e24, 26px -26px 52px #252830;
+}
+
+.styling-3 .box2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    right: 20%;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: var(--bg);
+    box-shadow: inset 23px -23px 46px #16181d, inset -23px 23px 46px #2a2e37;
+    animation: rotate360 4s linear 0s infinite forwards;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.styling-3 .box3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 40%;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #22252d, #1d2026);
+    box-shadow: -27px -27px 44px #111317, 27px 27px 44px #2f333d;
+}
+
+.styling-3 .box4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 56%;
+    height: 220px;
+    width: 220px;
+    border-radius: 35px;
+    background: linear-gradient(225deg, #1d2026, #22252d);
+    box-shadow: -25px 25px 50px #0d0e11, 25px -25px 50px #333843;
+    animation: moveX 3s ease-in-out 0s infinite forwards;
+}
+
+@keyframes moveX {
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-100%, -50%);
+    }
+}

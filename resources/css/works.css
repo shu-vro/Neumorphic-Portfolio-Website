@@ -1,0 +1,109 @@
+.work-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.work-content .work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.work-content .work > * {
+    width: 50vw;
+}
+
+.work-content .work:nth-child(odd) .specific-name h1 {
+    font-size: 7vw;
+    margin-left: 1.5vw;
+}
+
+.work-content .work:nth-child(even) .specific-name h1 {
+    font-size: 7vw;
+    margin-right: 1.5vw;
+    text-align: right;
+}
+
+.work-content .work .specific-name p {
+    font-size: 7vw;
+    font-size: 22px;
+    margin: 0 1.5vw;
+    color: var(--bg);
+    text-shadow: 2px 2px 2px black, -2px -2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.work-content .work .img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  5px 5px 10px #0d0e11,
+             -5px -5px 10px #333843;
+}
+
+.work-content .work .img-container a {
+    position: relative;
+    color: crimson;
+    font-size: 25px;
+    text-shadow: none;
+    text-decoration: none;
+    z-index: 2;
+    text-decoration: none;
+    font-weight: 900;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    opacity: 1;
+    text-align: center;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+}
+
+.work-content .work .img-container:hover a {
+    transform: scale(1);
+}
+
+.work-content .work .img-container a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px dashed crimson;
+    animation: rotate360 5s linear 0s infinite forwards;
+}
+
+.work-content .work:nth-child(1) .img-container {
+    background: url("../img/1f5c994988dfef2c9d180575b9f219f5.png") no-repeat;
+}
+
+.work-content .work:nth-child(2) .img-container {
+    background: url("../img/002.jpg") no-repeat;
+}
+
+.work-content .work:nth-child(3) .img-container {
+    background: url("../img/musika.png") no-repeat;
+}
+
+.work-content .work:nth-child(odd) .img-container {
+    background-position: 50vw center;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: contain;
+}
+
+.work-content .work:nth-child(even) .img-container {
+    background-position: 0 center;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: contain;
+}

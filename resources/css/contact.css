@@ -1,0 +1,225 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-container > * {
+    position: relative;
+    width: 50vw;
+}
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-info .field {
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    background: linear-gradient(315deg, #22252d, #1d2026);
+    box-shadow: -14px -14px 28px #0d0e11, 14px 14px 28px #333843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+}
+
+.location-info .field:nth-child(1):hover {
+    background: #ff0057;
+}
+
+.location-info .field:nth-child(2):hover {
+    background: #33ff96;
+}
+
+.location-info .field:nth-child(3):hover {
+    background: #1e90ff;
+}
+
+.location-info .field:nth-child(1):hover a:hover {
+    background: #ff0057;
+    box-shadow: inset -5px -5px 10px #660023, inset 5px 5px 10px #ff008b;
+}
+
+.location-info .field:nth-child(2):hover a:hover {
+    background: #33ff96;
+    box-shadow: inset -5px -5px 10px #14663c, inset 5px 5px 10px #52fff0;
+}
+
+.location-info .field:nth-child(3):hover a:hover {
+    background: #1e90ff;
+    box-shadow: inset -5px -5px 10px #0c3a66, inset 5px 5px 10px #30e6ff;
+}
+
+.location-info .field i {
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.location-info .field span {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    color: #f6f5f7;
+    text-shadow: -2px -2px 4px #626263, 2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.location-info .field a {
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.25s ease-in-out;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.location-info .field a:hover {
+    color: white;
+}
+
+.location-info .field a:nth-child(even) {
+    margin-top: 20px;
+}
+
+.styling-4 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+.styling-4 img {
+    width: 600px;
+}
+
+form {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    background: linear-gradient(145deg, #1d2026, #22252d);
+    box-shadow: 35px 35px 70px #0d0e11, -35px -35px 70px #333843;
+    padding: 30px 0;
+}
+
+.input-field {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #22252d, #1d2026);
+    box-shadow: 11px 11px 21px #0d0e11, -11px -11px 21px #333843;
+    margin: 20px 0;
+}
+
+.input-field i {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: right;
+}
+
+.input-field input {
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 80px);
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f2f4f7;
+    caret-color: #f2f4f7;
+}
+
+.input-field .placeholder {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.25s ease-in-out;
+}
+
+.input-field input:focus + .placeholder,
+.input-field input:valid + .placeholder,
+.input-field.ta textarea:focus + .placeholder,
+.input-field.ta textarea:valid + .placeholder {
+    top: -10%;
+    font-size: 16px;
+    color: white;
+    border-radius: 100px;
+    background: linear-gradient(-45deg, #256db4, #42a5f3);
+    padding: 7px 14px;
+    box-shadow: 0 0 0 3px #3d93d5, -3px -3px 10px rgba(255, 255, 255, 0.438),
+        3px 3px 10px #000000;
+}
+
+.input-field textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #f2f4f7;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.input-field.ta .placeholder {
+    top: 20px;
+    left: 20px;
+}
+
+input[type="submit"] {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(0deg, #0d0e11, #333843);
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 7px 14px;
+    color: #a2b4ca;
+    border: none;
+    box-shadow: 0 5px 10px black, 0 -5px 10px rgb(255 255 255 / 20%),
+        0 0 0 3px transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    height: 50px;
+}
+
+.copyright {
+    position: relative;
+    color: dodgerblue;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: #394e65;
+    text-shadow: none;
+    z-index: 5;
+}
