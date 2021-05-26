@@ -120,3 +120,14 @@
     background: linear-gradient(145deg, #22252d, #1d2026);
     box-shadow: 25px 25px 50px #0d0e11, -25px -25px 50px #333843;
 }
+
+.styling-7 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: -1;
+}
+
+.styling-7 img {
+    width: 650px;
+}

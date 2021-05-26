@@ -106,6 +106,12 @@
     }
 }
 
+@media (max-width: 679px) {
+    .styling-7 img {
+        width: 350px;
+    }
+}
+
 @media (max-width: 587px) {
     .home .introduction {
         flex-direction: column-reverse;
