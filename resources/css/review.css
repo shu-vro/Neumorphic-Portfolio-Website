@@ -15,6 +15,12 @@
     box-shadow: 23px 23px 46px #0d0e11, -23px -23px 46px #333843;
     overflow: hidden;
     margin: 20px 0;
+    transition: .5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.review-container .box:hover {
+    transform: translateY(-30px);
+    box-shadow: 23px 46px 66px #0d0e11, -23px -23px 46px #333843;
 }
 
 .review-container .box > * {
