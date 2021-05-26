@@ -3,6 +3,8 @@ Neumorphic Website &lt; HTML > { CSS }
 
 This page is made by pure HTML5 and CSS3. No Plugin or Javascript. 
 
+![Preview Of The Webpage](https://raw.githubusercontent.com/shu-vro/Neumorphic-Website/main/resources/video/preview.mp4)
+
 ## Notice
 This page is only for personal use only. Not for sale or commercial purpose.
 
