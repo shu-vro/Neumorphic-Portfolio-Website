@@ -75,6 +75,7 @@
         height: 10px;
         width: 100%;
         border-radius: 100px;
+    background: linear-gradient(0deg, #ff4e71, #97001e);
     }
 
     .skills .skill:first-child {

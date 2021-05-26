@@ -75,7 +75,7 @@
     width: 10px;
     height: 100%;
     border-radius: 100px;
-    background: crimson;
+    background: linear-gradient(90deg, #ff4e71, #97001e);
     box-shadow: 7px -7px 14px #0d0e11, -7px 7px 14px #333843;
 }
 

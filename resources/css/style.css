@@ -186,7 +186,13 @@ section:not(:first-child) {
 }
 
 .introduction .hello p {
-  font-size: 19px;
+  font-size: 20px;
+}
+
+.introduction .hello p span {
+  color: #eb1540;
+  font-size: 25px;
+  text-shadow: -2px -2px 3px #580818, 2px 2px 3px #ff2060;
 }
 
 .introduction .hello h1 .hand {
@@ -297,7 +303,7 @@ section:not(:first-child) {
   left: 0;
   width: 100%;
   height: 100%;
-	z-index: -1;
+  z-index: -1;
 }
 
 .styling-6 .box {
@@ -305,7 +311,7 @@ section:not(:first-child) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .styling-6 .box:nth-child(1) {
@@ -314,11 +320,11 @@ section:not(:first-child) {
   border-radius: 22px;
   background: linear-gradient(145deg, #22252d, #1d2026);
   box-shadow: 13px 13px 25px #0d0e11, -13px -13px 25px #333843;
-	transition: .5s;
+  transition: 0.5s;
 }
 
 .my-image img:hover ~ .styling-6 .box:nth-child(1) {
-	transform: translate(150%, 200%) rotate(452deg);
+  transform: translate(150%, 200%) rotate(452deg);
 }
 
 .styling-6 .box:nth-child(2) {
@@ -327,11 +333,11 @@ section:not(:first-child) {
   border-radius: 63px;
   background: linear-gradient(145deg, #1d2026, #22252d);
   box-shadow: 12px 12px 24px #0d0e11, -12px -12px 24px #333843;
-	transition: .5s .2s;
+  transition: 0.5s 0.2s;
 }
 
 .my-image img:hover ~ .styling-6 .box:nth-child(2) {
-	transform: translate(-200%, -150%) rotate(252deg);
+  transform: translate(-200%, -150%) rotate(252deg);
 }
 
 .styling-6 .box:nth-child(3) {
@@ -340,11 +346,11 @@ section:not(:first-child) {
   border-radius: 9px;
   background: #20232a;
   box-shadow: -16px -16px 32px #0d0e11, 16px 16px 32px #333843;
-	transition: .7s;
+  transition: 0.7s;
 }
 
 .my-image img:hover ~ .styling-6 .box:nth-child(3) {
-	transform: translate(-250%, 150%) rotate(-252deg);
+  transform: translate(-250%, 150%) rotate(-252deg);
 }
 
 .styling-6 .box:nth-child(4) {
@@ -353,9 +359,9 @@ section:not(:first-child) {
   border-radius: 22px;
   background: #20232a;
   box-shadow: -8px -8px 16px #0d0e11, 8px 8px 16px #333843;
-	transition: .4s;
+  transition: 0.4s;
 }
 
 .my-image img:hover ~ .styling-6 .box:nth-child(4) {
-	transform: translate(150%, -250%) rotate(252deg);
+  transform: translate(150%, -250%) rotate(252deg);
 }
