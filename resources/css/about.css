@@ -12,6 +12,11 @@
     display: inline-block;
 }
 
+.textography .header-text .small {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
 .main-content {
     position: relative;
     display: flex;
