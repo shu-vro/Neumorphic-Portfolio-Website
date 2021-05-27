@@ -12,9 +12,5 @@ This page is only for personal use only. Not for sale or commercial purpose.
 - [https://search.muz.li](https://search.muz.li/NzIyY2NmNGUw)
 - And some of my creative designs with PHOTOSHOP
 
-## The Result Of Patience Is Sweet. 
-[Click here To See The webpage.](https://shu-vro.github.io/Neumorphic-Portfolio-Website/)
-
-
 ## Patience is our friend.
 [Click here To See The webpage.](https://shu-vro.github.io/Neumorphic-Website/index.html)
