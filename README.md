@@ -1,9 +1,9 @@
 # Neumorphic-Website
-Neumorphic Website &lt; HTML > { CSS }
+Neumorphic Portfolio Website &lt; HTML > { CSS }
 
 This page is made by pure HTML5 and CSS3. No Plugin or Javascript. 
 
-![Preview Of The Webpage](https://github.com/shu-vro/Neumorphic-Website/blob/main/resources/markup/Screenshot%20(8).png?raw=true)
+![Preview Of The Webpage](https://github.com/shu-vro/Neumorphic-Website/blob/main/resources/markup/Screenshot.png?raw=true)
 
 ## Notice
 This page is only for personal use only. Not for sale or commercial purpose.
@@ -15,4 +15,4 @@ This page is only for personal use only. Not for sale or commercial purpose.
 - And some of my creative designs with PHOTOSHOP
 
 ## The Result Of Patience Is Sweet. 
-[Click here To See The webpage.](https://shu-vro.github.io/Neumorphic-Website/index.html)
+[Click here To See The webpage.](https://shu-vro.github.io/Neumorphic-Portfolio-Website/)

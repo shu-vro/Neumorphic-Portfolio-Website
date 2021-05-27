@@ -3,7 +3,7 @@
     position: relative;
     justify-content: space-around;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     flex-wrap: wrap;
 }
 
@@ -105,7 +105,15 @@
     text-align: center;
 }
 
-.reviews .load-more-btn {
+.load-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.load-more-btn {
     position: relative;
     text-decoration: none;
     color: inherit;
@@ -116,7 +124,7 @@
     padding: 7px 14px;
 }
 
-.reviews .load-more-btn:hover {
+.load-more-btn:hover {
     background: linear-gradient(145deg, #22252d, #1d2026);
     box-shadow: 25px 25px 50px #0d0e11, -25px -25px 50px #333843;
 }

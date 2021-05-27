@@ -36,6 +36,10 @@
     line-height: 1.8;
 }
 
+.main-content .about-text .expertise {
+    font-size: 2em;
+}
+
 .main-content .about-text .lang-images {
     position: relative;
     display: flex;

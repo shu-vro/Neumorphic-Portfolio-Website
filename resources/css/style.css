@@ -192,7 +192,7 @@ section:not(:first-child) {
 .introduction .hello p span {
   color: #eb1540;
   font-size: 25px;
-  text-shadow: -2px -2px 3px #580818, 2px 2px 3px #ff2060;
+  text-shadow: 2px 2px 3px #580818, -2px -2px 3px #ff2060;
 }
 
 .introduction .hello h1 .hand {
