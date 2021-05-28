@@ -115,6 +115,7 @@ form {
     background: linear-gradient(145deg, #1d2026, #22252d);
     box-shadow: 35px 35px 70px #0d0e11, -35px -35px 70px #333843;
     padding: 30px 0;
+    color: var(--bg);
 }
 
 form h1 {
