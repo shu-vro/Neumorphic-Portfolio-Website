@@ -23,7 +23,7 @@ body {
   background: none;
 }
 
-h1 {
+h1, a {
   color: var(--bg);
 }
 
