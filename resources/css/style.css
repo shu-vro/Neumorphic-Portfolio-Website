@@ -15,7 +15,7 @@ body {
   background: var(--bg);
   color: #a2b4ca;
   overflow-x: hidden;
-  color: var(--bg);
+  color: #5b6c7a;
   text-shadow: 2px 2px 2px black, -2px -2px 2px rgba(255, 255, 255, 0.2);
 }
 
